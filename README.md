@@ -2,7 +2,7 @@
 
 #### Sistema de processamento de áudio com transmissão de dados brutos via internet utilizando o microcontrolador ESP32, um microfone INMP441 e um cliente escrito em Python rodando no computador.
 
-![](tcc_sistemaA_1.mp4_snapshot_00.16.495.jpg)
+<img src="imagens/tcc_sistemaA_1.mp4_snapshot_00.16.495.jpg">
 
 Este projeto foi encarado como um exercício de desenvolvimento tecnológico de baixo custo, utilizando ferramentas acessíveis e sem muitas camadas de abstração de _hardware_ criadas por outros desenvolvedores.
 
@@ -10,10 +10,6 @@ Este projeto foi encarado como um exercício de desenvolvimento tecnológico de 
   <img src="imagens/esp32.jpg" width="200">
 <img src="imagens/inmp441.jpg" width="200">
 </p>
-
-
-<!-- <img src="imagens/esp32.jpg" width="200">
-<img src="imagens/inmp441.jpg" width="200"> -->
 
 O sistema é capaz de amostrar áudio a $22,05KHz$, com resolução de 16 _bits_, apesar de carregar bastante ruído.
 
@@ -31,8 +27,6 @@ O código do microcontrolador foi escrito utilizando o _framework_ _ESP-IDF_ da 
 
 Também foi utilizada a extensão oficial da _Espressif_ para _VSCode_. Para utilizar os códigos deste projeto, basta iniciar um novo projeto a partir de um _template_ básico e copiar o código do `servidor_inmp441.c` para dentro do arquivo `main.c` e copiar o restante dos arquivos para a pasta principal.
 
-![](espidfext.png)
-
-<img src="imagens/espidf.png">
+<img src="imagens/espidfext.png">
 
 Mais informações podem ser encontradas no relatório do meu TCC entre os arquivos do repositório.
