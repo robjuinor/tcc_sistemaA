@@ -29,4 +29,8 @@ Também foi utilizada a extensão oficial da _Espressif_ para _VSCode_. Para uti
 
 <img src="imagens/espidfext.png">
 
+A montagem do sistema deve ser realizada da seguinte forma:
+
+<img src="imagens/sistemaA.png" style="background-color:white;" />
+
 Mais informações podem ser encontradas no relatório do meu TCC entre os arquivos do repositório.
